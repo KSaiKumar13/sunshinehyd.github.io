@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "contact-us.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -14,7 +14,7 @@
     "versionFirst": "4.12.1",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 39,
+    "uniqCompNum": 40,
     "versionPublish": "4.12.1",
     "screenshot": "screenshot.png"
   },
@@ -42,7 +42,7 @@
             "fontName": {},
             "fontColor": "#d9534f"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Contac Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -116,7 +116,7 @@
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/images-banner-4-1920x480.jpg",
+                "image": "@PROJECT_PATH@/assets/images/close-up-woman-cleaning-with-vacuum-cleaner-23-2148394900-626x417.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -128,15 +128,16 @@
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/images-banner-3-1920x480.jpg",
+                "image": "@PROJECT_PATH@/assets/images/02-home-slide1-1668x512.jpg",
                 "active": false,
                 "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "title": "Slide 1",
-                "contentAlign": "right",
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+                "showText": true,
+                "showTitle": true,
+                "title": "Worried about\r<div>your home &amp; office cleaning?</div>",
+                "contentAlign": "left",
+                "text": "Hire us! We are a professional cleaning company offering all type of cleaning and maintenance services.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "alt": ""
               }
             ]
           },
@@ -155,7 +156,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/arrangement-with-cleaning-products-purple-basin-23-2148260879-626x352.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -185,24 +186,6 @@
           }
         },
         {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "Our Services",
-          "meta": "By John Smith posted July 30, 2015",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-d",
-          "_styles": {
-            "H3": {
-              "text-align": "center"
-            }
-          }
-        },
-        {
           "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
@@ -214,7 +197,7 @@
             "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -276,7 +259,7 @@
             "paddingTop": "2",
             "paddingBottom": "4",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -338,7 +321,7 @@
             "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -437,7 +420,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -492,7 +475,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -506,7 +489,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li>About US</li><li>Services</li><li><a href=\"https://mobirise.com/mobirise-free-mac.zip\" class=\"text-info\">C</a>ontact U</li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -516,7 +499,7 @@
         }
       ]
     },
-    "page1.html": {
+    "about-us.html": {
       "settings": {
         "title": "About Us",
         "order": 1
@@ -531,8 +514,8 @@
             "paddingTop": 3,
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
-            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pic54233657re-1170x660.jpg",
+            "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#FFF8E0",
             "bgVideoRadio": false,
@@ -566,7 +549,7 @@
             "fontName": {},
             "fontColor": "#d9534f"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Contac Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -612,7 +595,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/slide-1-1920x851.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -643,7 +626,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -657,7 +640,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li>About US</li><li>Services</li><li><a href=\"https://mobirise.com/mobirise-free-mac.zip\" class=\"text-info\">C</a>ontact U</li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -667,7 +650,7 @@
         }
       ]
     },
-    "page2.html": {
+    "services.html": {
       "settings": {
         "title": "Services",
         "order": 2
@@ -682,7 +665,7 @@
             "paddingTop": 3,
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/pic54233657re-1170x660.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#FFF8E0",
@@ -716,7 +699,7 @@
             "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -779,7 +762,7 @@
             "fontName": {},
             "fontColor": "#d9534f"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Contac Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -830,7 +813,7 @@
             "paddingTop": "2",
             "paddingBottom": "4",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -892,7 +875,7 @@
             "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -947,7 +930,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -961,7 +944,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li>About US</li><li>Services</li><li><a href=\"https://mobirise.com/mobirise-free-mac.zip\" class=\"text-info\">C</a>ontact U</li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -971,7 +954,7 @@
         }
       ]
     },
-    "page3.html": {
+    "contact-us.html": {
       "settings": {
         "title": "Contac Us",
         "order": 3
@@ -990,7 +973,7 @@
             "fontName": {},
             "fontColor": "#d9534f"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Contac Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1033,10 +1016,10 @@
           "_params": {
             "showTitle": true,
             "showCaption": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/close-up-person-s-hand-spraying-liquid-detergent-window-glass-23-2147916293-626x417.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1046,7 +1029,7 @@
             },
             "overlay": true,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.7
+            "overlayOpacity": "0.3"
           },
           "title": "Contact US",
           "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
@@ -1068,7 +1051,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -1117,7 +1100,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -1131,7 +1114,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li>About US</li><li>Services</li><li><a href=\"https://mobirise.com/mobirise-free-mac.zip\" class=\"text-info\">C</a>ontact U</li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
