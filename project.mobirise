@@ -1,13 +1,15 @@
 {
   "settings": {
-    "currentPage": "contact-us.html",
+    "currentPage": "about-us.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {},
       "titlePreset": "Landing Page",
       "nameSelectPreset": "landing",
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#ff8703"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "name": "Site-05-25_1418",
@@ -40,9 +42,9 @@
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#d9534f"
+            "fontColor": "#ff8703"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact-us.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -53,7 +55,7 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#d9534f"
+              "color": "#ff8703"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -62,7 +64,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#d9534f"
+              "color": "#ff8703"
             }
           },
           "logo": {
@@ -489,13 +491,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-warning\">Contact Us</a></li><li><a href=\"assets/files/brocher.pdf\" target=\"_blank\">Downlaod Brochure</a></li><li><a href=\"assets/files/qoute.pdf\" target=\"_blank\">Download Quotation</a></li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
-          "_anchor": "contacts2-9"
+          "_anchor": "contacts2-9",
+          "_styles": {
+            "DIV": {
+              "color": "#e6e0dc"
+            }
+          }
         }
       ]
     },
@@ -547,9 +554,9 @@
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#d9534f"
+            "fontColor": "#ff8703"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact-us.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -560,7 +567,7 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#d9534f"
+              "color": "#ff8703"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -569,7 +576,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#d9534f"
+              "color": "#ff8703"
             }
           },
           "logo": {
@@ -640,13 +647,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-warning\">Contact Us</a></li><li><a href=\"assets/files/brocher.pdf\" target=\"_blank\">Downlaod Brochure</a></li><li><a href=\"assets/files/qoute.pdf\" target=\"_blank\">Download Quotation</a></li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
-          "_anchor": "contacts2-f"
+          "_anchor": "contacts2-f",
+          "_styles": {
+            "DIV": {
+              "color": "#e6e0dc"
+            }
+          }
         }
       ]
     },
@@ -760,9 +772,9 @@
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#d9534f"
+            "fontColor": "#ff8703"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact-us.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -773,7 +785,7 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#d9534f"
+              "color": "#ff8703"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -782,7 +794,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#d9534f"
+              "color": "#ff8703"
             }
           },
           "logo": {
@@ -944,13 +956,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-warning\">Contact Us</a></li><li><a href=\"assets/files/brocher.pdf\" target=\"_blank\">Downlaod Brochure</a></li><li><a href=\"assets/files/qoute.pdf\" target=\"_blank\">Download Quotation</a></li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
-          "_anchor": "contacts2-r"
+          "_anchor": "contacts2-r",
+          "_styles": {
+            "DIV": {
+              "color": "#e6e0dc"
+            }
+          }
         }
       ]
     },
@@ -971,9 +988,9 @@
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#d9534f"
+            "fontColor": "#ff8703"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><strong>Home</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html\"><strong>About Us</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\"><strong>Services</strong></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact-us.html\"><strong>Contac Us</strong></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"tel:+91-9000-202024\">Call: +91 9000202024</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -984,7 +1001,7 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#d9534f"
+              "color": "#ff8703"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -993,7 +1010,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#d9534f"
+              "color": "#ff8703"
             }
           },
           "logo": {
@@ -1114,13 +1131,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Reg. Office 2-41/11/10, Kondapur Main Road, Hyderabad<br><br>\n<strong>Contacts</strong><br>\nEmail: kishore@sunshinehyd.com<br>\nPhone: +91 9000202024<br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-info\">Contact Us</a></li><li>Downlaod Brochure</li><li>Download Quotation</li></ul>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"about-us.html\">About US</a></li><li><a href=\"services.html\">Services</a></li><li><a href=\"contact-us.html\" class=\"text-warning\">Contact Us</a></li><li><a href=\"assets/files/brocher.pdf\" target=\"_blank\">Downlaod Brochure</a></li><li><a href=\"assets/files/qoute.pdf\" target=\"_blank\">Download Quotation</a></li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
-          "_anchor": "contacts2-10"
+          "_anchor": "contacts2-10",
+          "_styles": {
+            "DIV": {
+              "color": "#e6e0dc"
+            }
+          }
         }
       ]
     }
