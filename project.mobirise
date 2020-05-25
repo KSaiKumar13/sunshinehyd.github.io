@@ -95,11 +95,11 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/02-home-slide1-1668x512.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
-                "title": "Worried about\r<div>your home &amp; office cleaning?</div>",
+                "title": "Worried about\n<div>your home &amp; office cleaning?</div>",
                 "contentAlign": "left",
                 "text": "Hire us! We are a professional cleaning company offering all type of cleaning and maintenance services.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
@@ -119,7 +119,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/images-banner-2-1920x480.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
